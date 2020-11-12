@@ -7,15 +7,11 @@
 
 ## Official Documentation
 
-Documentation for Laravel Elibom Notification Channel can be found on the [Laravel website](https://laravel.com/docs/notifications#sms-notifications).
+Documentation for Laravel Elibom Notification Channel can be found on the [Lotous website](https://lotous.com.co/docs/elibom-notification-channel).
 
 ## Contributing
 
-Thank you for considering contributing to Elibom Notification Channel! The contribution guide can be found in the [Laravel documentation](https://lotous.com.co/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://lotous.com.co/docs/contributions#code-of-conduct).
+Thank you for considering contributing to Elibom Notification Channel! The contribution guide can be found in the [Laravel documentation](https://lotous.com.co/docs/elibom-notification-channel/#contributions).
 
 ## Security Vulnerabilities
 
@@ -23,4 +19,4 @@ Please review [our security policy](https://github.com/lotous/elibom-notificatio
 
 ## License
 
-Laravel Elibom Notification Channel is open-sourced software licensed under the [MIT license](LICENSE.md).
+Laravel Elibom Notification Channel is open source software licensed under the [MIT license](LICENSE.md).
