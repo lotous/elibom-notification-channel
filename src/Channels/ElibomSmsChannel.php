@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Notifications\Channels;
+namespace Lotous\Elibom\Notifications\Channels;
 
 use Lotous\Elibom\Notifications\Messages\ElibomMessage;
 use Illuminate\Notifications\Notification;
