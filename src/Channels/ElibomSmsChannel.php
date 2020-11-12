@@ -15,23 +15,15 @@ class ElibomSmsChannel
      */
     protected $elibom;
 
-    /**
-     * The phone number notifications should be sent from.
-     *
-     * @var string
-     */
-    protected $from;
 
     /**
      * Create a new Elibom channel instance.
      *
      * @param  Lotous\Elibom\Client  $elibom
-     * @param  string  $from
      * @return void
      */
-    public function __construct(ElibomClient $elibom, $from)
+    public function __construct(ElibomClient $elibom)
     {
-        $this->from = $from;
         $this->elibom = $elibom;
     }
 
