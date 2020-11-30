@@ -5,6 +5,10 @@
 <a href="https://packagist.org/packages/lotous/elibom-notification-channel"><img src="https://img.shields.io/packagist/v/lotous/elibom-notification-channel" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/lotous/elibom-notification-channel"><img src="https://img.shields.io/packagist/l/lotous/elibom-notification-channel" alt="License"></a>
 
+## Instalation
+
+composer required lotous/elibom-notification-channel
+
 ## Official Documentation
 
 Documentation for Laravel Elibom Notification Channel can be found on the [Lotous website](https://lotous.com.co/docs/elibom-notification-channel).
