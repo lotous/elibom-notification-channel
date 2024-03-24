@@ -11,8 +11,9 @@
     ],
     "require": {
         "php": "^8.2",
-        "composer/package-versions-deprecated": "^1.11",
-        "lotous/elibom-laravel": "^1.1.0"
+        "illuminate/notifications": "*",
+        "illuminate/support": "*",
+        "lotous/elibom-laravel": "^1.1"
     },
     "require-dev": {
         "mockery/mockery": "^1.6.0",
