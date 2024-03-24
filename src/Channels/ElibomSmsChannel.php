@@ -9,18 +9,13 @@ use Lotous\Elibom\Client as ElibomClient;
 class ElibomSmsChannel
 {
     /**
-     * The Elibom client instance.
-     *
-     * @var Lotous\Elibom\Client
+     * @var ElibomClient|Lotous\Elibom\Client
      */
     protected $elibom;
 
 
     /**
-     * Create a new Elibom channel instance.
-     *
-     * @param  Lotous\Elibom\Client  $elibom
-     * @return void
+     * @param ElibomClient $elibom
      */
     public function __construct(ElibomClient $elibom)
     {
@@ -30,9 +25,9 @@ class ElibomSmsChannel
     /**
      * Send the given notification.
      *
-     * @param  mixed  $notifiable
-     * @param  \Illuminate\Notifications\Notification  $notification
-     * @return Lotous\Elibom\Message\Message
+     * @param $notifiable
+     * @param Notification $notification
+     * @return \Psr\Http\Message\ResponseInterface|void
      */
     public function send($notifiable, Notification $notification)
     {
