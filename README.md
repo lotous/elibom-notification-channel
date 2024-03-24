@@ -7,7 +7,7 @@
 
 ## Instalation
 
-composer required lotous/elibom-notification-channel
+composer require lotous/elibom-notification-channel
 
 ## Official Documentation
 
