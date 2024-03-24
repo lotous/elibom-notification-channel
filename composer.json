@@ -17,6 +17,7 @@
     },
     "require-dev": {
         "mockery/mockery": "^1.6.0",
+        "orchestra/testbench": "^9.0",
         "phpunit/phpunit": "^11.0"
     },
     "autoload": {
@@ -26,7 +27,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Lotous\\Elibom\\Tests\\Notifications\\": "tests/"
+            "Lotous\\Elibom\\Notifications\\Tests\\": "tests/"
         }
     },
     "config": {
