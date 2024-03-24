@@ -9,7 +9,7 @@ use Lotous\Elibom\Client as ElibomClient;
 class ElibomSmsChannel
 {
     /**
-     * @var ElibomClient|Lotous\Elibom\Client
+     * @var ElibomClient
      */
     protected $elibom;
 
@@ -23,8 +23,6 @@ class ElibomSmsChannel
     }
 
     /**
-     * Send the given notification.
-     *
      * @param $notifiable
      * @param Notification $notification
      * @return \Psr\Http\Message\ResponseInterface|void
